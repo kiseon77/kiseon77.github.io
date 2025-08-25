@@ -4,7 +4,7 @@ date : 2025-08-25 18:07:00 +09:00
 categories : [tailwind]
 tags : [tailwind , css] 
 ---
-![image](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftailwindcss.com%2Fblog%2Ftailwindcss-v4-beta&psig=AOvVaw1h4GrtRB91w7qIUb20K6d3&ust=1756208502561000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMCthdbwpY8DFQAAAAAdAAAAABAE)
+
 
 # font 관리 어떻게 하세요?
 회사 프로젝트 오픈일이 얼마 안남았다. 그래서 그런지 폰트 하나로도 한시간동안 회의에서 이야기 하는 시기가 와버렸다.<br/> 기본 폰트를 전체적으로 적용하되, 일부 페이지에서는 다른 폰트를 사용하고 있어서 전체적으로 3개의 폰트를 사용하고 있다. <br/> 이 프로젝트의 히스토리를 따라가보자면 기본 폰트가 2번 정도 바뀌었다. <br/><br/>
@@ -51,7 +51,7 @@ Black  font-weight: 400;
 	font-style: normal;
 }
 ```
-![alt text](image-4.png)
+![image](https://github.com/user-attachments/assets/c955b933-fadf-47e1-8b4e-84a5a9827028)
 
 초기엔 font-family도 달랐지만, @font-face에서 font-weight를 400으로만 불러왔기 때문에 
 <br/>css에서 지정해준 font-weight와 맞지 않아서 fallback으로 비슷한걸 찾아서 두께를 적용해주던가,<br/>이미지처럼 두께가 적용되지 않은 상태로 보여진다.
